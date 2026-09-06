@@ -1,0 +1,14 @@
+chunking 
+ - fixed 
+ - recursive 
+ - semantic
+ - late
+
+max chunksize 
+
+overlap 
+
+content type
+
+
+embedding dimensions 

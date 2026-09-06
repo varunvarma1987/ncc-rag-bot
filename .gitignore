@@ -1,0 +1,18 @@
+.env
+
+# Source PDFs -- not redistributing the raw NCC documents. Only the final
+# processed data artifact (contextualized_chunks/) is published.
+documents/
+extracted/
+chunks/
+
+# Reference/example scripts used for learning -- not part of the project itself.
+reference/
+
+# Regenerable local artifacts -- rebuild with:
+#   python scripts/embed_and_store.py   (vector_store/)
+vector_store/
+cache/
+
+__pycache__/
+*.pyc
